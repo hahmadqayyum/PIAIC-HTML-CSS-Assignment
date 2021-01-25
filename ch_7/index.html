@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Your Information</legend>
+        <label>Name</label>
+        <input placeholder="Please Enter Name" /><br /><br />
+        <label>Email</label>
+        <input placeholder="Please Enter Email" />
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <label>select the option</label>
+        <input
+          list="browsers"
+          name="browser"
+          type="select"
+          placeholder="select option"
+        />
+        <datalist id="browsers">
+          <option value="Internet Explorer"></option>
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option></datalist
+        ><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </fieldset>
+      <br />
+
+      <textarea placeholder="write a comment" rows="15" cols="59"></textarea>
+      <br />
+   
+      <input type="checkbox" /><label>keep me signed in</label>
+   <br>
+   <button type="submit" >Submit</button>
+    </form>
+
+  </body>
+</html>
