@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .wrraper {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw;
+        height: 100vh;
+      }
+      .card {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 320px;
+
+        /* border: 1px solid black; */
+        box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.144);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      #parabutton {
+        height: 100%;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+      }
+      #parabutton p {
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .btn {
+        width: 100%;
+      }
+      #parabutton button {
+        width: 80px;
+        height: 40px;
+        outline: none;
+        border-radius: 4px;
+        background-color: rgba(78, 164, 214, 0.692);
+        border: none;
+        /* box-shadow: 2px 2px 2px 2px; */
+        color: rgb(27, 5, 5);
+      }
+      @media (max-width: 800px) {
+        .wrraper {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100vw;
+          height: 100vh;
+        }
+      }
+    </style>
+  </head>
+  <body class="wrraper">
+    <div class="card">
+      <div id="image">
+        <img src="./pic1.jpg" />
+      </div>
+      <div id="parabutton">
+        <h2>Title</h2>
+        <p>
+          Learn more about this! thisis ther parlkj sdf pkjdf sldjf sldkjf
+          aslkdjfl asdjfl
+        </p>
+        <div id="btn">
+          <button>BUTTON</button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="card">
+      <div id="image">
+        <img src="./pic1.jpg" />
+      </div>
+      <div id="parabutton">
+        <h2>Title</h2>
+        <p>
+          Learn more about this! thisis ther parlkj sdf pkjdf sldjf sldkjf
+          aslkdjfl asdjfl
+        </p>
+        <div id="btn">
+          <button>BUTTON</button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="card">
+      <div id="image">
+        <img src="./pic1.jpg" />
+      </div>
+      <div id="parabutton">
+        <h2>Title</h2>
+        <p>
+          Learn more about this! thisis ther parlkj sdf pkjdf sldjf sldkjf
+          aslkdjfl asdjfl
+        </p>
+        <div id="btn">
+          <button>BUTTON</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
