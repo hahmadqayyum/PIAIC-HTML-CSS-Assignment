@@ -25,6 +25,24 @@
       integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
       crossorigin="anonymous"
     ></script>
+    <style>
+      body {
+        background-color: teal;
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+        justify-content: space-around;
+        text-align: center;
+      }
+      .c2-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -44,7 +62,9 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./whyus.html">WHYUS</a>
+              <a class="nav-link active" aria-current="page" href="./whyus.html"
+                >WHYUS</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about.html">ABOUT</a>
@@ -52,18 +72,7 @@
             <li class="nav-item">
               <a class="nav-link" href="./services.html">SERVICES</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./process.html">PROCESS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./reviews.html">REVIEWS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./ourskill.html">SKILS</a>
-            </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="./contactus.html">CONTACT</a>
             </li>
@@ -71,5 +80,42 @@
         </div>
       </div>
     </nav>
+    <div class="wrapper">
+      <div>
+        <h1>OUR SERVICES</h1>
+      </div>
+      <div class="c2-1">
+        <div class="card" style="width: 10rem">
+          <div class="card-body">
+            <h5 class="card-title">WEB DESIGN</h5>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 10rem">
+          <div class="card-body">
+            <h5 class="card-title">GRAPHIC DESIGN</h5>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 10rem">
+          <div class="card-body">
+            <h5 class="card-title">MARKETING</h5>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 10rem">
+          <div class="card-body">
+            <h5 class="card-title">BRANDING</h5>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 10rem">
+          <div class="card-body">
+            <h5 class="card-title">HOSTING</h5>
+            <a href="#" class="btn btn-primary">click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
